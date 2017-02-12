@@ -40,7 +40,7 @@ chmod og-rwx /boot/grub/grub.cfg
 
 echo "Welcome to Technicolor." >> /etc/motd
 
-cp /etc/issue /etc/issue/orig
+cp /etc/issue /etc/issue.orig
 cat scripts/banner.file >> /etc/issue
 
 echo "Authorized uses only. All activity may be monitored and reported." >> /etc/issue.net
