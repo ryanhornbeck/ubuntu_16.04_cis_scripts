@@ -156,7 +156,7 @@ cp /etc/pam.d/su /etc/pam.d/su.orig
 cat pam.d_su.file >> /etc/pam.d/su
 
 sh scripts/world_writable_files.sh
-i# sh scripts/world/world_writable_dirs_sticky.sh
-# Cleanup
+# sh scripts/world/world_writable_dirs_sticky.sh
 
+# Cleanup
 apt-get remove prelink
