@@ -63,9 +63,9 @@ chmod 644 /etc/issue.net
 
 cp /etc/ntp.conf /etc/ntp.conf.orig
 cat scripts/ntp.file >> /etc/ntp.conf
-systemctl disable avahi-daemon
-systemctl disable isc-dhcp-server
-systemctl disable iisc-dhcp-server 
+# systemctl disable avahi-daemon
+# systemctl disable isc-dhcp-server
+# systemctl disable iisc-dhcp-server 
 
 cp /etc/sysctl.conf /etc/sysctl.conf.orig
 cat scripts/sysctl.file >> /etc/sysctl.conf 
