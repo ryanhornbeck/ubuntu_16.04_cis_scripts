@@ -8,6 +8,8 @@
 # echo export https_proxy="https://ladczproxy.am.thmulti.com:80" >> /etc/profile
 #  /etc/profile
 
+#set -e
+
 apt-get -y update &&
 apt-get -y install chrony &&
 apt-get -y install ntp &&
