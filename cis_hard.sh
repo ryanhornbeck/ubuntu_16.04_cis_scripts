@@ -20,7 +20,7 @@ apt-get -y install rsyslog &&
 apt-get -y install libpam-pwquality &&
 apt-get -y install ssh &&
 # apt-get -y install chage (find deps)
-apt-get -y remove telnet 
+# apt-get -y remove telnet 
 
 # Reformat disks
 # placeholder for /etc/fstab and filesystem changes
@@ -55,9 +55,10 @@ chmod 644 /etc/issue
 chown root:root /etc/issue.net
 chmod 644 /etc/issue.net
 
-cat /etc/dconf/profile/gdm /etc/dconf/profile/gdm.orig
-cat scripts/gdm.file >> /etc/dconf/profile/gdm
-dconf update
+# gdm is part of Gnome Desktop Mgr.  Command is required if gdm login is used.
+# cat /etc/dconf/profile/gdm /etc/dconf/profile/gdm.orig
+# cat scripts/gdm.file >> /etc/dconf/profile/gdm
+# dconf update
 
 cp /etc/ntp.conf /etc/ntp.conf.orig
 cat scripts/ntp.file >> /etc/ntp.conf
