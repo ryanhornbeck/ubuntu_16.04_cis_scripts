@@ -21,6 +21,7 @@ apt-get -y install libpam-pwquality &&
 apt-get -y install ssh &&
 # apt-get -y install chage (find deps)
 # apt-get -y remove telnet 
+apt -y autoremove
 
 # Reformat disks
 # placeholder for /etc/fstab and filesystem changes
