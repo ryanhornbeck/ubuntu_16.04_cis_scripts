@@ -164,4 +164,4 @@ sh scripts/world_writable_files.sh
 # sh scripts/world/world_writable_dirs_sticky.sh
 
 # Cleanup
-apt-get remove prelink
+apt-get -y remove prelink
