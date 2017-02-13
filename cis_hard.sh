@@ -21,7 +21,6 @@ apt-get -y install ssh &&
 # apt-get -y install chage (find deps)
 # apt-get -y remove telnet 
 apt-get y install unzip curl git
-apt -y autoremove
 
 # Reformat disks
 # placeholder for /etc/fstab and filesystem changes
@@ -165,6 +164,8 @@ cat pam.d_su.file >> /etc/pam.d/su
 
 sh scripts/world_writable_files.sh
 # sh scripts/world/world_writable_dirs_sticky.sh
+
+apt -y autoremove
 
 # Cleanup
 apt-get -y remove prelink
