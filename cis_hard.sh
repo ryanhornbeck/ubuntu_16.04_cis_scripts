@@ -1,7 +1,5 @@
 #!/bin/sh
 # CIS Hardening Script for Ubuntu 16.04 LTS v0.1
-# Technicolor Enterprise Architecture
-# Ryan Hornbeck & Jim Tessier
 
 # Set http and https proxies for TCH
 # echo export http_proxy="http://ladczproxy.am.thmulti.com:80" >> /etc/profile
