@@ -16,6 +16,7 @@ apt-get -y install aide &&
 apt-get -y install prelink &&
 apt-get -y install rsyslog &&
 apt-get -y install libpam-pwquality &&
+apt-get -y --purge remove openssh-server
 apt-get -y install ssh &&
 # apt-get -y install chage (find deps)
 # apt-get -y remove telnet 
