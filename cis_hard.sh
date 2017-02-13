@@ -152,7 +152,7 @@ cat scripts/pam.d_common-password.file >> /etc/pam.d/common-password
 cp /etc/login.defs /etc/login.defs.orig
 cat scripts/login_defs.file >> /etc/login.defs
 # chage --maxdays 90 <user>
-useradd -D -f 30
+# useradd -D -f 30
 
 cp /etc/bash.bashrc /etc/bash.bashrc.orig
 cat scripts/bash_bashrc.file >> /etc/bash.bashrc
