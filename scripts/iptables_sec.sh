@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Flush IPtables rules
 iptables -F
