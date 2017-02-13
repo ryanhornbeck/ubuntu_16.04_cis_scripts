@@ -100,7 +100,8 @@ cat scripts/CIS_conf.file >> /etc/modprobe.d/CIS.conf
 # cp scripts/iptables /sbin/
 # chmod a+x /sbin/iptables
 # ./iptables
-sh scripts/iptables_sec.sh 
+chmod a+x iptables_sec.sh 
+./iptables_sec.sh
 
 systemctl enable rsyslog
 
