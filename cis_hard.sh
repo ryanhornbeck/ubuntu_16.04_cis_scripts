@@ -165,6 +165,8 @@ cat pam.d_su.file >> /etc/pam.d/su
 sh scripts/world_writable_files.sh
 # sh scripts/world/world_writable_dirs_sticky.sh
 
+apt-get -y install openssh-server
+
 apt -y autoremove
 
 # Cleanup
