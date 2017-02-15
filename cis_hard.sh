@@ -139,8 +139,8 @@ chmod og-rwx /etc/ssh/sshd_config
 chown root:root /etc/ssh/sshd_config
 chmod og-rwx /etc/ssh/sshd_config
 
-cp /etc/ssh/sshd_config /etc/ssh/sshd_config.orig
-cat scripts/sshd_config.file >> /etc/ssh/sshd_config
+cp /etc/ssh/ssh_config /etc/ssh/ssh_config.orig
+cat scripts/ssh_config.file >> /etc/ssh/ssh_config
 
 cp /etc/pam.d/common-password /etc/pam.d/common-password.orig
 cat scripts/common-password.file >> /etc/pam.d/common-password
