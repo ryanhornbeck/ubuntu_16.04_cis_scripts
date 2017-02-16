@@ -20,6 +20,8 @@ apt-get -y --purge remove openssh-server
 apt-get -y install ssh &&
 # apt-get -y install chage (find deps)
 # apt-get -y remove telnet 
+apt-get -y install python-novaclient &&
+apt-get -y install python-keystoneclient &&
 apt-get -y install figlet &&
 apt-get -y install unzip curl git
 
