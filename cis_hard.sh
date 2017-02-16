@@ -92,7 +92,7 @@ prelink -ua
 # cp /etc/default/grub /etc/default/grub.orig
 # cat scripts/grub.file >> /etc/default/grub
 update-grub
-echo "ALL: ALL" >> /etc/hosts.deny
+# echo "ALL: ALL" >> /etc/hosts.deny
 chown root:root /etc/hosts.allow
 chmod 644 /etc/hosts.allow
 
