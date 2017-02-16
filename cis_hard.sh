@@ -20,7 +20,8 @@ apt-get -y --purge remove openssh-server
 apt-get -y install ssh &&
 # apt-get -y install chage (find deps)
 # apt-get -y remove telnet 
-apt-get y install unzip curl git
+apt-get -y install figlet &&
+apt-get -y install unzip curl git
 
 # Reformat disks
 # placeholder for /etc/fstab and filesystem changes
