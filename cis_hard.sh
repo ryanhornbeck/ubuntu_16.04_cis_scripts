@@ -41,7 +41,7 @@ chmod og-rwx /boot/grub/grub.cfg
 # cat scripts/grub.d_00_header.file >> /etc/grub.d/00_header
 # update-grub
 
-echo "Welcome to Technicolor." >> /etc/motd
+echo "Welcome to CIS-Hardened Ubuntu." >> /etc/motd
 
 cp /etc/issue /etc/issue.orig
 cat scripts/banner.file >> /etc/issue
