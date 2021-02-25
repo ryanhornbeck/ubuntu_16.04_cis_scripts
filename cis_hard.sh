@@ -1,9 +1,9 @@
 #!/bin/sh
 # CIS Hardening Script for Ubuntu 16.04 LTS v0.1
 
-# Set http and https proxies for TCH
-# echo export http_proxy="http://ladczproxy.am.thmulti.com:80" >> /etc/profile
-# echo export https_proxy="https://ladczproxy.am.thmulti.com:80" >> /etc/profile
+# Set http and https proxies for ORG
+# echo export http_proxy="http://ladczproxy.am.site.com:80" >> /etc/profile
+# echo export https_proxy="https://ladczproxy.am.site.com:80" >> /etc/profile
 #  /etc/profile
 
 # set -e
