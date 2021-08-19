@@ -8,22 +8,22 @@
 
 # set -e
 
-apt-get -y update &&
-apt-get -y install chrony &&
-apt-get -y install ntp &&
-apt-get -y install syslog-ng &&
-apt-get -y install aide &&
-apt-get -y install prelink &&
-apt-get -y install rsyslog &&
-apt-get -y install libpam-pwquality &&
+apt-get -y update 
+apt-get -y install chrony 
+apt-get -y install ntp 
+apt-get -y install syslog-ng 
+apt-get -y install aide 
+apt-get -y install prelink 
+apt-get -y install rsyslog 
+apt-get -y install libpam-pwquality 
 apt-get -y --purge remove openssh-server
-apt-get -y install ssh &&
+apt-get -y install ssh 
 # apt-get -y install chage (find deps)
 # apt-get -y remove telnet 
-apt-get -y install python-novaclient &&
-apt-get -y install python-keystoneclient &&
-apt-get -y install figlet &&
-apt-get -y install unzip curl git
+apt-get -y install python-novaclient 
+apt-get -y install python-keystoneclient 
+apt-get -y install figlet 
+apt-get -y install unzip curl git wget 
 
 # Reformat disks
 # placeholder for /etc/fstab and filesystem changes
